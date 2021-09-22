@@ -1,0 +1,42 @@
+{
+   "name": "alamatie",
+   "version": "1.0.0",
+   "description": "",
+   "main": "server.js",
+   "scripts": {
+      "start": "nodemon server.js"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@admin-bro/express": "^3.1.0",
+      "@admin-bro/mongoose": "^1.1.0",
+      "admin-bro": "^4.0.1",
+      "admin-bro-theme-dark": "^1.0.0",
+      "cors": "^2.8.5",
+      "dotenv": "^9.0.2",
+      "express": "^4.17.1",
+      "express-formidable": "^1.2.0",
+      "express-session": "^1.17.2",
+      "mongoose": "^5.12.13",
+      "morgan": "^1.10.0",
+      "nodemailer": "^6.6.1",
+      "slugify": "^1.5.3",
+      "tslib": "^2.3.0"
+   },
+   "devDependencies": {
+      "eslint": "^7.28.0",
+      "eslint-config-airbnb": "^18.2.1",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-import": "^2.23.4",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^3.4.0",
+      "eslint-plugin-react": "^7.24.0",
+      "nodemon": "^2.0.8",
+      "prettier": "^2.3.1"
+   },
+   "engines": {
+      "node": ">=10.0.0"
+   }
+}
